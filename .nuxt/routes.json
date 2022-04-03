@@ -1,0 +1,16 @@
+[
+  {
+    "name": "aboutUs",
+    "path": "/aboutUs",
+    "component": "C:\\\\Users\\\\Kamal\\\\Desktop\\\\Anmup\\\\LandingPage\\\\pages\\\\aboutUs.vue",
+    "chunkName": "pages/aboutUs",
+    "_name": "_63ff721f"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Kamal\\\\Desktop\\\\Anmup\\\\LandingPage\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_53f72f66"
+  }
+]

@@ -1,0 +1,47 @@
+.dot-shape1,
+.dot-shape2 {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    z-index: 9999;
+}
+.dot-shape1 {
+    top: 5%;
+    left: 50%;
+    animation: animationFramesTwo 35s linear infinite;
+    @keyframes animationFramesTwo {
+        from {
+            transform: rotate(0deg) translateX(50px) rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg) translateX(50px) rotate(-360deg);
+        }
+    }
+}
+.dot-shape2 {
+    left: 5%;
+    top: 45%;
+    animation: animationFramesTwo 30s linear infinite;
+    @keyframes animationFramesTwo {
+        from {
+            transform: rotate(0deg) translateX(50px) rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg) translateX(50px) rotate(-360deg);
+        }
+    }
+}
+.dot-shape3 {
+    right: 2%;
+    top: 20%;
+    z-index: 9999;
+    animation: animationFramesTwo 30s linear infinite;
+    @keyframes animationFramesTwo {
+        from {
+            transform: rotate(0deg) translateX(50px) rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg) translateX(50px) rotate(-360deg);
+        }
+    }
+}

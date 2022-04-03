@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Slabo+27px&display=swap");
+// font-family: 'Slabo 27px', serif;
+@import "var";
+body {
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s ease-in-out;
+    line-height: 1.4;
+    background: #fff;
+    color: $text-color;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: $text-black;
+}
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+    color: $text-primary;
+}
+.btn {
+    font-size: 0.875rem;
+    padding: 10px 25px;
+    border-radius: 20px;
+    &:hover {
+        opacity: 0.9;
+    }
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+.btn-first {
+    background: $text-black;
+    color: $text-white !important;
+}
+
+.btn-second {
+    border: 1px solid $text-primary !important;
+    i {
+        margin-left: 8px;
+    }
+    &:hover {
+        background: $text-black;
+        color: $text-white !important;
+    }
+}
+
+.section__title {
+    margin-bottom: 5rem;
+    text-align: center;
+    position: relative;
+    p {
+        margin: auto;
+        @media screen and (min-width: 991px) {
+            max-width: 500px;
+        }
+    }
+    i{
+        position: absolute;
+        top: -38px;
+        left: 38%;
+        font-size: 100px;
+        color: rgba(19, 19, 22, 0.05);;
+    }
+}
+
+.section__padding {
+    padding: 70px 0px;
+    @media screen and (max-width: 991px) {
+        padding: 40px 0px;
+    }
+}
+
+@mixin marPad {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+.social__links {
+    margin-top: 18px;
+    ul {
+        @include marPad();
+    }
+}
